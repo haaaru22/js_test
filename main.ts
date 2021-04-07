@@ -20,4 +20,18 @@
 // }
 // console.log(sum(4,3.6,true));
 
+
+
 //object
+
+const person:{
+    name:string;
+    age:number;
+} = {
+    name: "hareo",
+    age: 26,
+};
+
+
+console.log(person.name, person.age);
+
