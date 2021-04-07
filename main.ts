@@ -24,14 +24,23 @@
 
 //object
 
-const person:{
-    name:string;
-    age:number;
-} = {
+const person = {
     name: "hareo",
     age: 26,
 };
+console.log(person);
 
 
-console.log(person.name, person.age);
 
+const repo = {
+    id:'abc',
+    price:"aaa",
+    tags:[1,2],
+    details:{
+        title:"red",
+        description:'A great'
+    }
+}
+console.log(repo,repo.details.title);
+
+//array
